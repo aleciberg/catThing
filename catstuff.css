@@ -1,0 +1,35 @@
+body {
+    background-image: url(cat.gif);
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+#counter-wrapper {
+    font-size: 44px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#yesbuddy {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: -430;
+    left: 0;
+    width: 800px;
+    height: 100px;
+}
